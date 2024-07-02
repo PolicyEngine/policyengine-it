@@ -5,6 +5,6 @@ class benefits(Variable):
     value_type = float
     entity = Household
     label = "benefits"
-    unit = CAD
+    unit = EUR
     definition_period = YEAR
     adds = []

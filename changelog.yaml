@@ -1,1 +1,5 @@
-
+- bump: minor
+  changes:
+    added:
+    - README, config files
+  date: 2024-07-02 00:00:00

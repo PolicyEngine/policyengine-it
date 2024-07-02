@@ -5,5 +5,5 @@ class household_id(Variable):
     value_type = float
     entity = Household
     label = "Household ID"
-    unit = CAD
+    unit = EUR
     definition_period = ETERNITY
