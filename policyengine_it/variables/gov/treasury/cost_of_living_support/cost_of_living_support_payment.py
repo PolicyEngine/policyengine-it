@@ -1,4 +1,4 @@
-from policyengine_uk.model_api import *
+from policyengine_it.model_api import *
 
 
 class cost_of_living_support_payment(Variable):

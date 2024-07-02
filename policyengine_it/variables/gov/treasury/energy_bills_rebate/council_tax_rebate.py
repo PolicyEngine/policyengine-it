@@ -1,5 +1,5 @@
-from policyengine_uk.model_api import *
-from policyengine_uk.variables.input.housing import (
+from policyengine_it.model_api import *
+from policyengine_it.variables.input.housing import (
     CouncilTaxBand,
 )
 

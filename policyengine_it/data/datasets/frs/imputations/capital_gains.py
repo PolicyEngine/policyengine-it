@@ -3,11 +3,11 @@ import numpy as np
 
 # Fit a spline to each income band's percentiles
 from scipy.interpolate import PchipInterpolator, UnivariateSpline
-from policyengine_uk import Microsimulation
+from policyengine_it import Microsimulation
 from tqdm import tqdm
-from policyengine_uk.data.storage import STORAGE_FOLDER
+from policyengine_it.data.storage import STORAGE_FOLDER
 from policyengine_core.data import Dataset
-from policyengine_uk.system import system
+from policyengine_it.system import system
 
 import torch
 from torch.optim import Adam

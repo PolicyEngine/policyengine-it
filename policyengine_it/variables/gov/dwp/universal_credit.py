@@ -1,5 +1,5 @@
-from policyengine_uk.model_api import *
-from policyengine_uk.variables.household.demographic.household import (
+from policyengine_it.model_api import *
+from policyengine_it.variables.household.demographic.household import (
     TenureType,
 )
 

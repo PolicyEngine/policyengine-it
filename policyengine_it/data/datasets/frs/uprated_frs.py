@@ -24,7 +24,7 @@ class UpratedFRS(Dataset):
         return UpratedFRSFromDataset
 
     def generate(self):
-        from policyengine_uk import Microsimulation
+        from policyengine_it import Microsimulation
 
         input_dataset = self.input_dataset()
         simulation = Microsimulation(dataset=self.input_dataset)

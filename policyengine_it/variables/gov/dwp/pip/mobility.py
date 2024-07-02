@@ -1,5 +1,5 @@
-from policyengine_uk.model_api import *
-from policyengine_uk.variables.gov.dwp.pip.pip import PIPCategory
+from policyengine_it.model_api import *
+from policyengine_it.variables.gov.dwp.pip.pip import PIPCategory
 
 
 class PIP_M_reported(Variable):

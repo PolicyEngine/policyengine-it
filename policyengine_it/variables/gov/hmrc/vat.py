@@ -1,4 +1,4 @@
-from policyengine_uk.model_api import *
+from policyengine_it.model_api import *
 
 MICRODATA_VAT_COVERAGE = 0.38
 """

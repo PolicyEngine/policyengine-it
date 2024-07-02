@@ -300,7 +300,7 @@ def add_household_variables(frs: h5py.File, household: DataFrame, year: int):
         household (DataFrame)
     """
     # Add region
-    from policyengine_uk.variables.household.demographic.household import (
+    from policyengine_it.variables.household.demographic.household import (
         Region,
     )
 

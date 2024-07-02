@@ -1,4 +1,4 @@
-from policyengine_uk.model_api import *
+from policyengine_it.model_api import *
 
 
 class would_evade_tv_licence_fee(Variable):

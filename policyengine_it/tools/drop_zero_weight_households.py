@@ -1,5 +1,5 @@
 from policyengine_core.data import Dataset
-from policyengine_uk import Microsimulation
+from policyengine_it import Microsimulation
 import numpy as np
 
 

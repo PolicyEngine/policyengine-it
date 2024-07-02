@@ -1,20 +1,20 @@
 from pathlib import Path
-from policyengine_uk.entities import entities
+from policyengine_it.entities import entities
 from policyengine_core.taxbenefitsystems import TaxBenefitSystem
 from policyengine_core.simulations import (
     Simulation as CoreSimulation,
     Microsimulation as CoreMicrosimulation,
     IndividualSim as CoreIndividualSim,
 )
-from policyengine_uk.data import (
+from policyengine_it.data import (
     DATASETS,
     EnhancedFRS,
 )
-from policyengine_uk.data.storage import STORAGE_FOLDER
+from policyengine_it.data.storage import STORAGE_FOLDER
 import pandas as pd
-from policyengine_uk.tools.parameters import backdate_parameters
+from policyengine_it.tools.parameters import backdate_parameters
 
-from policyengine_uk.reforms import create_structural_reforms_from_parameters
+from policyengine_it.reforms import create_structural_reforms_from_parameters
 
 COUNTRY_DIR = Path(__file__).parent
 

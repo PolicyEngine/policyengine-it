@@ -1,8 +1,8 @@
-from policyengine_uk.data.gov import lha_list_of_rents, brma_to_region
+from policyengine_it.data.gov import lha_list_of_rents, brma_to_region
 import numpy as np
 import pandas as pd
-from policyengine_uk.variables.household.demographic.locations import BRMAName
-from policyengine_uk import Microsimulation
+from policyengine_it.variables.household.demographic.locations import BRMAName
+from policyengine_it import Microsimulation
 
 sim = Microsimulation()
 region = sim.populations["benunit"].household("region", 2023).decode_to_str()

@@ -107,7 +107,7 @@ def generate_lcfs_table(
 def uprate_lcfs_table(
     household: pd.DataFrame, time_period: str
 ) -> pd.DataFrame:
-    from policyengine_uk.system import system
+    from policyengine_it.system import system
 
     fuel_duty_revenue = (
         system.parameters.calibration.programs.fuel_duty.revenue

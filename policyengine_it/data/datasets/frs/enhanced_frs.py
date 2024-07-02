@@ -40,7 +40,7 @@ class ImputationExtendedFRS(Dataset):
         return ImputationExtendedFRSFromDataset
 
     def generate(self):
-        from policyengine_uk import Microsimulation
+        from policyengine_it import Microsimulation
         from survey_enhance import Imputation
 
         simulation = Microsimulation(dataset=self.input_dataset)
@@ -99,11 +99,11 @@ class ImputationExtendedFRS(Dataset):
                 values = Y_output[output_variable].values
                 data[output_variable] = {self.time_period: values}
 
-        from policyengine_uk.tools.drop_zero_weight_households import (
+        from policyengine_it.tools.drop_zero_weight_households import (
             drop_zero_weight_households,
         )
-        from policyengine_uk.tools.stack_datasets import stack_datasets
-        from policyengine_uk.data.datasets.frs.imputations.capital_gains import (
+        from policyengine_it.tools.stack_datasets import stack_datasets
+        from policyengine_it.data.datasets.frs.imputations.capital_gains import (
             impute_capital_gains,
         )
 
@@ -157,7 +157,7 @@ class EnhancedFRS(Dataset):
     url = "release://policyengine/non-public-microdata/uk-2024-march-efo/enhanced_frs.h5"
 
     def generate(self):
-        from policyengine_uk.tools.stack_datasets import stack_datasets
+        from policyengine_it.tools.stack_datasets import stack_datasets
 
         data = ImputedCalibratedFRS().load_dataset()
 

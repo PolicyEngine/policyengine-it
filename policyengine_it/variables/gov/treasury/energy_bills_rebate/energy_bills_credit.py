@@ -1,4 +1,4 @@
-from policyengine_uk.model_api import *
+from policyengine_it.model_api import *
 
 
 class ebr_energy_bills_credit(Variable):

@@ -1,6 +1,6 @@
 from typing import Any, Callable
 from policyengine_core.model_api import *
-from policyengine_uk.entities import *
+from policyengine_it.entities import *
 import numpy as np
 from datetime import datetime
 from pathlib import Path

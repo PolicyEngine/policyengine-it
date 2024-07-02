@@ -1,23 +1,23 @@
 import logging
-from policyengine_uk import CountryTaxBenefitSystem
-from policyengine_uk.data import EnhancedFRS
-from policyengine_uk.entities import entities
+from policyengine_it import CountryTaxBenefitSystem
+from policyengine_it.data import EnhancedFRS
+from policyengine_it.entities import entities
 import numpy as np
 import warnings
-from policyengine_uk.entities import *
+from policyengine_it.entities import *
 import numpy as np
 import warnings
-from policyengine_uk.initial_setup import REPO, set_default
-from policyengine_uk.reforms.presets.current_date import use_current_parameters
-from policyengine_uk.reforms.presets.average_parameters import (
+from policyengine_it.initial_setup import REPO, set_default
+from policyengine_it.reforms.presets.current_date import use_current_parameters
+from policyengine_it.reforms.presets.average_parameters import (
     average_parameters as apply_parameter_averaging,
 )
-from policyengine_uk.tools.baseline_variables import (
+from policyengine_it.tools.baseline_variables import (
     generate_baseline_variables,
 )
-from policyengine_uk.tools.parameters import backdate_parameters
+from policyengine_it.tools.parameters import backdate_parameters
 from policyengine_core.reforms import Reform
-from policyengine_uk.data import DATASETS, SynthFRS
+from policyengine_it.data import DATASETS, SynthFRS
 from policyengine_core.simulations import (
     Microsimulation as GeneralMicrosimulation,
     IndividualSim as GeneralIndividualSim,
@@ -32,7 +32,7 @@ from policyengine_core.parameters.operations import (
     propagate_parameter_metadata,
 )
 from policyengine_core.model_api import Reform
-from policyengine_uk.tools.tax_benefit_uprating import add_tax_benefit_uprating
+from policyengine_it.tools.tax_benefit_uprating import add_tax_benefit_uprating
 from functools import reduce
 
 

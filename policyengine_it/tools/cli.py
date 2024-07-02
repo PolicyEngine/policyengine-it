@@ -2,7 +2,7 @@ import argparse
 import logging
 import os
 import sys
-from policyengine_uk.tools.testing import run_tests
+from policyengine_it.tools.testing import run_tests
 from policyengine_core.scripts import build_tax_benefit_system
 
 policyengine_uk = "policyengine_uk"

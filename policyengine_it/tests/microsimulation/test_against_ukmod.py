@@ -1,6 +1,6 @@
-from policyengine_uk import Microsimulation
-from policyengine_uk.data.datasets import UKMOD_FRS_2018
-from policyengine_uk.data.storage import STORAGE_FOLDER
+from policyengine_it import Microsimulation
+from policyengine_it.data.datasets import UKMOD_FRS_2018
+from policyengine_it.data.storage import STORAGE_FOLDER
 import pandas as pd
 import numpy as np
 import pytest

@@ -2,8 +2,8 @@ import logging
 from policyengine_core.variables import Variable
 from typing import Callable, Type
 import h5py
-from policyengine_uk.data import EnhancedFRS
-from policyengine_uk.repo import REPO
+from policyengine_it.data import EnhancedFRS
+from policyengine_it.repo import REPO
 
 
 def baseline_is_nonzero(variable: Type[Variable]) -> Callable:
@@ -48,7 +48,7 @@ def generate_baseline_variables():
     Save baseline values of variables to a H5 dataset.
     """
 
-    from policyengine_uk import Microsimulation
+    from policyengine_it import Microsimulation
 
     YEARS = list(range(2022, 2026))
     baseline = Microsimulation(add_baseline_values=False)

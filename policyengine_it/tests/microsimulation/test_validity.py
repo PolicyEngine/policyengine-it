@@ -1,6 +1,6 @@
-from policyengine_uk import Microsimulation
+from policyengine_it import Microsimulation
 import pytest
-from policyengine_uk.data import EnhancedFRS
+from policyengine_it.data import EnhancedFRS
 
 YEARS = range(2023, 2026)
 

@@ -1,4 +1,4 @@
-from policyengine_uk.model_api import *
+from policyengine_it.model_api import *
 import pandas as pd
 import warnings
 from policyengine_core.model_api import *
@@ -209,7 +209,7 @@ class BRMA_LHA_rate(Variable):
         )
         category = benunit("LHA_category", period).decode_to_str()
 
-        from policyengine_uk.data.gov import lha_list_of_rents
+        from policyengine_it.data.gov import lha_list_of_rents
 
         parameters = benunit.simulation.tax_benefit_system.parameters
         lha = parameters.gov.dwp.LHA

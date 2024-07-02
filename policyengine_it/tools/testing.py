@@ -22,7 +22,7 @@ from policyengine_core.simulation_builder import SimulationBuilder
 from policyengine_core.errors import SituationParsingError, VariableNotFound
 from policyengine_core.scripts import build_tax_benefit_system
 
-from policyengine_uk.reforms.tools.parametric import set_parameter
+from policyengine_it.reforms.tools.parametric import set_parameter
 
 log = logging.getLogger(__name__)
 

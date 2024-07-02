@@ -1,5 +1,5 @@
-from policyengine_uk.data.datasets import EnhancedFRS
-from policyengine_uk.model_api import *
+from policyengine_it.data.datasets import EnhancedFRS
+from policyengine_it.model_api import *
 
 
 class poverty_line(Variable):

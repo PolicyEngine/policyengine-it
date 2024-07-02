@@ -1,11 +1,11 @@
-from policyengine_uk.model_api import *
-from policyengine_uk.variables.misc.categories.lower_middle_or_higher import (
+from policyengine_it.model_api import *
+from policyengine_it.variables.misc.categories.lower_middle_or_higher import (
     LowerMiddleOrHigher,
 )
-from policyengine_uk.variables.misc.categories.lower_or_higher import (
+from policyengine_it.variables.misc.categories.lower_or_higher import (
     LowerOrHigher,
 )
-from policyengine_uk.variables.gov.dwp.pip.pip import PIPCategory
+from policyengine_it.variables.gov.dwp.pip.pip import PIPCategory
 
 label = "Disability"
 

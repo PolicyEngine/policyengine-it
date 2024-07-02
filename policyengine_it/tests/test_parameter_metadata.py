@@ -1,4 +1,4 @@
-from policyengine_uk.system import system
+from policyengine_it.system import system
 from policyengine_core.model_api import Parameter
 import pytest
 

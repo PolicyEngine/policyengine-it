@@ -33,7 +33,7 @@ class SPIEnhancedFRS(Dataset):
         return SPIEnhancedFRSFromDataset
 
     def generate(self):
-        from policyengine_uk import Microsimulation
+        from policyengine_it import Microsimulation
         from survey_enhance.impute import Imputation
 
         frs = self.input_dataset().load()
