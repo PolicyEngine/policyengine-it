@@ -1,0 +1,4 @@
+- bump: minor
+  changes:
+    added:
+    - Handling of dependents and household units
