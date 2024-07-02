@@ -41,12 +41,12 @@ dev_requirements = [
 ]
 
 setup(
-    name="policyengine-canada",
-    version="0.95.0",
+    name="policyengine-italy",
+    version="0.0.0",
     author="PolicyEngine",
     author_email="hello@policyengine.org",
     classifiers=[
-        "Development Status :: 5 - Production/Stable",
+        "Development Status :: 2 - Pre-Alpha",
         "License :: OSI Approved :: GNU Affero General Public License v3",
         "Operating System :: POSIX",
         "Programming Language :: Python",
@@ -56,11 +56,11 @@ setup(
         "Programming Language :: Python :: 3.10",
         "Topic :: Scientific/Engineering :: Information Analysis",
     ],
-    description="Microsimulation model for Canada's tax-benefit system.",
+    description="Microsimulation model for Italy's tax-benefit system.",
     keywords="tax benefit microsimulation framework",
     license="https://www.fsf.org/licensing/licenses/agpl-3.0.html",
     license_files=("LICENSE",),
-    url="https://github.com/policyengine/policyengine-canada",
+    url="https://github.com/policyengine/policyengine-italy",
     long_description=long_description,
     long_description_content_type="text/markdown",
     extras_require={

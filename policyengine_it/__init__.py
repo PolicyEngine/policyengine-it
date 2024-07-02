@@ -15,10 +15,6 @@ from policyengine_core.simulations import (
 from policyengine_core.simulations import Simulation as CoreSimulation
 from policyengine_core.taxbenefitsystems import TaxBenefitSystem
 
-from policyengine_it.variables.household.demographic.geographic.province.in_province import (
-    create_10_province_variables,
-)
-
 from .constants import COUNTRY_DIR
 
 DATASETS = [CountryTemplateDataset]  # Important: must be instantiated
@@ -30,16 +26,12 @@ class CountryTaxBenefitSystem(TaxBenefitSystem):
     parameters_dir = COUNTRY_DIR / "parameters"
     auto_carry_over_input_variables = True
     basic_inputs = [
-        "province_name",
         "employment_income",
     ]
 
     def __init__(self):
         # We initialize our tax and benefit system with the general constructor
         super().__init__(entities)
-
-        self.add_variables(*create_10_province_variables())
-
 
 system = CountryTaxBenefitSystem()
 
@@ -56,5 +48,5 @@ class Microsimulation(CoreMicrosimulation):
     default_tax_benefit_system = CountryTaxBenefitSystem
     default_dataset = CountryTemplateDataset
     default_tax_benefit_system_instance = system
-    default_dataset_year = 2023
-    default_calculation_period = 2023
+    default_dataset_year = 2024
+    default_calculation_period = 2024
