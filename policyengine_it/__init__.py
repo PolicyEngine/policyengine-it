@@ -6,7 +6,6 @@ from policyengine_it.system import (
     CountryTaxBenefitSystem,
     Microsimulation,
     Simulation,
-    IndividualSim,
     COUNTRY_DIR,
     BASELINE_VARIABLES,
     parameters,
@@ -16,6 +15,7 @@ from pathlib import Path
 import os
 from policyengine_core.taxbenefitsystems import TaxBenefitSystem
 from policyengine_it.data import *
-from policyengine_it.data import DATASETS
+from policyengine_it.data.datasets import CountryTemplateDataset
 
+DATASETS = [CountryTemplateDataset]  # Important: must be instantiated
 REPO = Path(__file__).parent

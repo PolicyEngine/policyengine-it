@@ -2,7 +2,6 @@ import logging
 from policyengine_core.variables import Variable
 from typing import Callable, Type
 import h5py
-from policyengine_it.data import EnhancedFRS
 from policyengine_it.repo import REPO
 
 

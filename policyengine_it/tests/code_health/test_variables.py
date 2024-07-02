@@ -1,4 +1,4 @@
-from policyengine_uk import BASELINE_VARIABLES
+from policyengine_it import BASELINE_VARIABLES
 from policyengine_core.model_api import Enum
 
 
