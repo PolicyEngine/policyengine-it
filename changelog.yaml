@@ -3,3 +3,8 @@
     added:
     - README, config files
   date: 2024-07-02 00:00:00
+- bump: minor
+  changes:
+    added:
+    - GitHub Actions
+  date: 2024-07-02 22:01:27
