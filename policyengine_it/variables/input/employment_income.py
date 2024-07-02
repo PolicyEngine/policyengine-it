@@ -7,6 +7,6 @@ class employment_income(Variable):
     value_type = float
     entity = Person
     label = "Employment income"
-    unit = CAD
+    unit = EUR
     documentation = "Income from gainful employment"
     definition_period = YEAR

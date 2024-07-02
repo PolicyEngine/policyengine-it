@@ -33,6 +33,7 @@ class CountryTaxBenefitSystem(TaxBenefitSystem):
         # We initialize our tax and benefit system with the general constructor
         super().__init__(entities)
 
+
 system = CountryTaxBenefitSystem()
 
 

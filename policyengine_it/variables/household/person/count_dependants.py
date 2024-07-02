@@ -5,7 +5,7 @@ class count_dependants(Variable):
     value_type = int
     entity = Household
     label = "Dependannts"
-    unit = CAD
+    unit = EUR
     documentation = "Number of dependants"
     definition_period = YEAR
     adds = ["is_dependant"]

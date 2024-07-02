@@ -1,13 +1,13 @@
 name: Push
 on:
   push:
-    branches: [master]
+    branches: [main]
 jobs:
   Lint:
     runs-on: ubuntu-latest
     if: |
-      (github.repository == 'PolicyEngine/policyengine-canada')
-      && (github.event.head_commit.message == 'Update PolicyEngine Canada')
+      (github.repository == 'PolicyEngine/policyengine-it')
+      && (github.event.head_commit.message == 'Update PolicyEngine Italy')
     steps:
       - uses: actions/checkout@v3
       - name: Check formatting
@@ -17,8 +17,8 @@ jobs:
   versioning:
     name: Update versioning
     if: |
-      (github.repository == 'PolicyEngine/policyengine-canada')
-      && !(github.event.head_commit.message == 'Update PolicyEngine Canada')
+      (github.repository == 'PolicyEngine/policyengine-it')
+      && !(github.event.head_commit.message == 'Update PolicyEngine Italy')
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
@@ -41,12 +41,12 @@ jobs:
           add: "."
           committer_name: Github Actions[bot]
           author_name: Github Actions[bot]
-          message: Update PolicyEngine Canada
+          message: Update PolicyEngine Italy
   Test:
     runs-on: ${{ matrix.os }}
     if: |
-      (github.repository == 'PolicyEngine/policyengine-canada')
-      && (github.event.head_commit.message == 'Update PolicyEngine Canada')
+      (github.repository == 'PolicyEngine/policyengine-it')
+      && (github.event.head_commit.message == 'Update PolicyEngine Italy')
     strategy:
       matrix:
         os: [ubuntu-latest, windows-latest]
@@ -74,8 +74,8 @@ jobs:
   Publish:
     runs-on: ubuntu-latest
     if: |
-      (github.repository == 'PolicyEngine/policyengine-canada')
-      && (github.event.head_commit.message == 'Update PolicyEngine Canada')
+      (github.repository == 'PolicyEngine/policyengine-it')
+      && (github.event.head_commit.message == 'Update PolicyEngine Italy')
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
@@ -97,8 +97,8 @@ jobs:
           skip_existing: true
   Deploy:
     if: |
-      (github.repository == 'PolicyEngine/policyengine-canada')
-      && (github.event.head_commit.message == 'Update PolicyEngine Canada')
+      (github.repository == 'PolicyEngine/policyengine-it')
+      && (github.event.head_commit.message == 'Update PolicyEngine Italy')
     runs-on: ubuntu-latest
     env:
       GH_TOKEN: ${{ secrets.POLICYENGINE_GITHUB }}
