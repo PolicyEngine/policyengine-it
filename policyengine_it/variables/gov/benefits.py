@@ -7,5 +7,4 @@ class benefits(Variable):
     label = "benefits"
     unit = CAD
     definition_period = YEAR
-    adds = [
-    ]
+    adds = []
