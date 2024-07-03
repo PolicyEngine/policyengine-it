@@ -1,10 +1,10 @@
 from policyengine_it.model_api import *
 
 
-class is_dependant(Variable):
+class is_dependent(Variable):
     value_type = bool
     entity = Person
-    label = "Is a dependant"
+    label = "Is a dependent"
     definition_period = YEAR
 
     def formula(person, period, parameters):
