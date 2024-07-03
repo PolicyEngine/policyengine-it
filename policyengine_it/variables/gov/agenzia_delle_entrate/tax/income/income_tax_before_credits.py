@@ -1,5 +1,6 @@
 from policyengine_it.model_api import *
 
+
 class income_tax_before_credits(Variable):
     value_type = float
     entity = Person
