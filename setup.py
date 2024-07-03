@@ -15,7 +15,7 @@ general_requirements = [
     "dpath<3",
     "h5py>=3,<4",
     "linecheck<1",
-    "microdf_python>=0.4.0,<1",
+    "microdf_python>=0.3.0,<1",
     "nptyping<2",
     "numexpr<3",
     "pandas>=1.4.2,<2",
@@ -27,7 +27,7 @@ general_requirements = [
     "sortedcontainers<3",
     "tqdm>=4.46.0,<5",
     "wheel<1",
-    "yaml-changelog==0.4.0",
+    "yaml-changelog==0.3.0",
 ]
 
 dev_requirements = [
