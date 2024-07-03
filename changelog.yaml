@@ -18,3 +18,8 @@
     added:
     - Employment income
   date: 2024-07-03 20:47:26
+- bump: minor
+  changes:
+    added:
+    - Income tax calculation
+  date: 2024-07-03 23:59:31
