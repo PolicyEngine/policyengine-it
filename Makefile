@@ -1,9 +1,5 @@
 all: install format test build changelog
 
-documentation:
-	jb clean docs
-	jb build docs
-
 format:
 	black . -l 79
 	linecheck . --fix
