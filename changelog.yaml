@@ -13,3 +13,8 @@
     added:
     - Handling of dependents and household units.
   date: 2024-07-03 01:44:38
+- bump: minor
+  changes:
+    added:
+    - Employment income
+  date: 2024-07-03 20:47:26
