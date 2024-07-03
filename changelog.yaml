@@ -8,3 +8,8 @@
     added:
     - GitHub Actions
   date: 2024-07-02 22:01:27
+- bump: minor
+  changes:
+    added:
+    - Handling of dependents and household units.
+  date: 2024-07-03 01:44:38
