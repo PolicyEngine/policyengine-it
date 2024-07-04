@@ -4,9 +4,9 @@ from policyengine_it.model_api import *
 class income_tax_before_credits(Variable):
     value_type = float
     entity = Person
-    label = "Income tax before non-refundable tax credits"
+    label = "Income tax before all tax credits"
     unit = EUR
-    documentation = "Income tax before non-refundable tax credits"
+    documentation = "Income tax before all tax credits"
     definition_period = YEAR
 
     def formula(person, period, parameters):
