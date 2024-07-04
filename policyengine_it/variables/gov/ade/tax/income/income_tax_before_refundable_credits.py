@@ -12,5 +12,5 @@ class income_tax_before_refundable_credits(Variable):
         "income_tax_before_credits",
     ]
     subtracts = [
-        "national_non_refundable_credits",
+        "non_refundable_credits",
     ]
