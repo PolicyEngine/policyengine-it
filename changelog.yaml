@@ -33,3 +33,8 @@
     added:
     - Low-income non-refundable tax credit
   date: 2024-07-04 02:43:03
+- bump: minor
+  changes:
+    added:
+    - National insurance contributions
+  date: 2024-07-04 03:38:18
