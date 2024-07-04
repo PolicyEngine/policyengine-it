@@ -1,9 +1,5 @@
 from policyengine_it.model_api import *
 
-from policyengine_it.variables.household.person.employment_category import (
-    EmploymentCategory,
-)
-
 
 class low_income_eligible(Variable):
     value_type = bool
