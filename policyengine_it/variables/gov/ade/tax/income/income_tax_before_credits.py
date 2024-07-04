@@ -11,5 +11,5 @@ class income_tax_before_credits(Variable):
 
     def formula(person, period, parameters):
         income = person("total_individual_pre_tax_income", period)
-        gov = parameters(period).gov.agenzia_delle_entrate.tax.income
+        gov = parameters(period).gov.ade.tax.income
         return gov.income_tax_schedule.calc(income)

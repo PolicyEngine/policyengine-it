@@ -16,7 +16,7 @@ class low_income_credit(Variable):
         print(is_eligible)
         exemption_rate = parameters(
             period
-        ).gov.agenzia_delle_entrate.credits.low_income.exemption_rate
+        ).gov.ade.credits.low_income.exemption_rate
         print(exemption_rate)
         income = person("total_individual_pre_tax_income", period)
         print(income)
