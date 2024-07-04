@@ -8,7 +8,7 @@ class mario_negri_base_amount(Variable):
     definition_period = YEAR
 
     def formula(person, period, parameters):
-        eligibility = person("mario_negri_eligible", period)
+        is_eligible = person("mario_negri_eligible", period)
         base_amount = parameters(period).private.mario_negri.base_amount
 
-        return eligibility * base_amount
+        return is_eligible * base_amount

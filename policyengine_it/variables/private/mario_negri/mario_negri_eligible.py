@@ -8,11 +8,11 @@ class mario_negri_eligible(Variable):
     definition_period = YEAR
 
     def formula(person, period, parameters):
-        mn_eligible_groups = parameters(
-            period
-        ).private.mario_negri.eligibility
+        mn_eligible_groups = parameters(period).private.mario_negri.eligibility
 
-        employment_category = person("employment_category", period).decode_to_str()[0]
+        employment_category = person(
+            "employment_category", period
+        ).decode_to_str()[0]
 
         if employment_category in mn_eligible_groups:
             return True
