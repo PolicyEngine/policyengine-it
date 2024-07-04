@@ -38,3 +38,8 @@
     added:
     - National insurance contributions
   date: 2024-07-04 03:38:18
+- bump: patch
+  changes:
+    added:
+    - Mario Negri Fund
+  date: 2024-07-04 04:28:27
