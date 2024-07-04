@@ -1,0 +1,22 @@
+description: Base amount for dependent spouse deduction
+brackets:
+  2024-01-01:
+    - threshold:
+        2024-01-01: 0
+      amount:
+        2024-01-01: 800
+    - threshold:
+        2024-01-01: 15_000
+      amount:
+        2024-01-01: 690
+    - threshold:
+        2024-01-01: 40_000
+      amount:
+        2024-01-01: 0
+
+metadata:
+  type: marginal_rate
+  rate_unit: currency-EUR
+  threshold_unit: currency-EUR
+  name: dependent_spouse_deduction_base_amount
+  label: Dependent spouse deduction, base amount
