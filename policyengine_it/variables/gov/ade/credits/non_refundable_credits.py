@@ -1,7 +1,7 @@
 from policyengine_it.model_api import *
 
 
-class national_non_refundable_credits(Variable):
+class non_refundable_credits(Variable):
     value_type = float
     entity = Person
     definition_period = YEAR
