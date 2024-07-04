@@ -1,4 +1,4 @@
-description: Italian federal tax rates
+description: Italian national tax rates
 brackets:
   - threshold:
       values:
@@ -35,5 +35,5 @@ metadata:
   type: marginal_rate
   rate_unit: /1
   threshold_unit: currency-EUR
-  name: federal_tax_rates
-  label: Federal tax rates
+  name: national_tax_rates
+  label: National tax rates

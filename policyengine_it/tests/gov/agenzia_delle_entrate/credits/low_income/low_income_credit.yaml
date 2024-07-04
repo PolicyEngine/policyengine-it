@@ -4,7 +4,7 @@
     employment_category: EMPLOYEE
     total_individual_pre_tax_income: 7_500
   output:
-    low_income: 7_500
+    low_income_credit: 7_500
 
 - name: Employee above income threshold
   period: 2024
@@ -12,7 +12,7 @@
     employment_category: EMPLOYEE
     total_individual_pre_tax_income: 8_500
   output:
-    low_income: 0
+    low_income_credit: 0
 
 - name: Executive below income threshold
   period: 2024
@@ -20,7 +20,7 @@
     employment_category: EXECUTIVE
     total_individual_pre_tax_income: 4_500
   output:
-    low_income: 4_500
+    low_income_credit: 4_500
 
 - name: Executive above income threshold
   period: 2024
@@ -28,7 +28,7 @@
     employment_category: EXECUTIVE
     total_individual_pre_tax_income: 5_000
   output:
-    low_income: 0
+    low_income_credit: 0
 
 - name: Unemployed below income threshold
   period: 2024
@@ -36,7 +36,7 @@
     employment_category: UNEMPLOYED
     total_individual_pre_tax_income: 4_700
   output:
-    low_income: 4_700
+    low_income_credit: 4_700
 
 - name: Unemployed above income threshold
   period: 2024
@@ -44,4 +44,4 @@
     employment_category: UNEMPLOYED
     total_individual_pre_tax_income: 5_000
   output:
-    low_income: 0
+    low_income_credit: 0

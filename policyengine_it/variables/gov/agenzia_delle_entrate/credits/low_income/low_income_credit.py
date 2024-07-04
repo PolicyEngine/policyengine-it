@@ -5,7 +5,7 @@ from policyengine_it.variables.household.person.employment_category import (
 )
 
 
-class low_income(Variable):
+class low_income_credit(Variable):
     value_type = float
     entity = Person
     label = "Value returned by the low income tax credit"

@@ -8,4 +8,4 @@ class income_tax(Variable):
     unit = EUR
     definition_period = YEAR
 
-    adds = ["income_tax_before_credits"]
+    adds = ["income_tax_before_refundable_credits"]
