@@ -13,4 +13,5 @@ class insurance_and_pensions(Variable):
         "mario_besusso",
         "shepherd_fund",
         "fasi",
+        "managers_fund",
     ]
