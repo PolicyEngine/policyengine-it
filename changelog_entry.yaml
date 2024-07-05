@@ -1,4 +1,0 @@
-- bump: patch
-  changes:
-    changed:
-    - Replace if/then with np.where for Mario Negri Fund calculation

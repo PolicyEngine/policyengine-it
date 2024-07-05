@@ -48,3 +48,8 @@
     added:
     - Dependent spouse tax deduction
   date: 2024-07-05 03:49:47
+- bump: patch
+  changes:
+    changed:
+    - Replace if/then with np.where for Mario Negri Fund calculation
+  date: 2024-07-05 03:54:38
