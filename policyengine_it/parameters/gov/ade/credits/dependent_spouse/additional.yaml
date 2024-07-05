@@ -3,7 +3,7 @@ metadata:
   threshold_unit: currency-EUR
   rate_unit: currency-EUR
   period: year
-  type: marginal_rate
+  type: single_amount
   name: dependent_spouse_deduction_additional_credit
   label: Dependent spouse deduction, additional credit
 brackets:
