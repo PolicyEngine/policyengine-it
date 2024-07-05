@@ -1,12 +1,7 @@
-description: Base amount for Shepherd Fund
-brackets:
-  - threshold:
-      2024-01-01: 0
-    amount:
-      2024-01-01: 464.81
+description: Shepherd Fund base amount that all contributors pay
+values:
+  0000-01-01: 464.81
 
 metadata:
-  type: single_amount
-  rate_unit: currency-EUR
-  threshold_unit: currency-EUR
-  label: Shepherd Fund base contribution
+  unit: currency-EUR
+  label: Shepherd Fund base amount
