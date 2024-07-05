@@ -8,7 +8,9 @@ class mario_besusso_eligible(Variable):
     definition_period = YEAR
 
     def formula(person, period, parameters):
-        mb_eligible_groups = parameters(period).private.mario_besusso.eligibility
+        mb_eligible_groups = parameters(
+            period
+        ).private.mario_besusso.eligibility
 
         employment_category = person(
             "employment_category", period
