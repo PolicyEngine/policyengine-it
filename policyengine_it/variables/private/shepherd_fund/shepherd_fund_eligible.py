@@ -16,8 +16,4 @@ class shepherd_fund_eligible(Variable):
             "employment_category", period
         ).decode_to_str()[0]
 
-        is_eligible = np.where(
-            employment_category in sf_eligible_groups, True, False
-        )
-
-        return is_eligible
+        return employment_category in sf_eligible_groups
