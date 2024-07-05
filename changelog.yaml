@@ -43,3 +43,8 @@
     added:
     - Mario Negri Fund
   date: 2024-07-04 04:28:27
+- bump: minor
+  changes:
+    added:
+    - Dependent spouse tax deduction
+  date: 2024-07-05 03:49:47
