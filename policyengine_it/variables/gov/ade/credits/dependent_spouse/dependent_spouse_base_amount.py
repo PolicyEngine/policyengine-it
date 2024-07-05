@@ -18,18 +18,4 @@ class dependent_spouse_base_amount(Variable):
         prev_threshold = get_previous_threshold(income, p.phase_out.thresholds)
         phase_out_amount = phase_out_rate * (income - prev_threshold)
 
-        print("income:")
-        print(income)
-        print("eligible:")
-        print(is_eligible)
-        print("base:")
-        print(base_amount)
-        print("POR:")
-        print(phase_out_rate)
-        print("POA:")
-        print(phase_out_amount)
-        print("Total:")
-        print(is_eligible * (base_amount - phase_out_amount))
-        print(get_previous_threshold(income, p.phase_out.thresholds))
-
         return is_eligible * (base_amount - phase_out_amount)
