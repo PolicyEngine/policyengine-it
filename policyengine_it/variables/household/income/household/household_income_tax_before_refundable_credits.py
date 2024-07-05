@@ -1,12 +1,11 @@
 from policyengine_it.model_api import *
 
 
-class income_tax(Variable):
+class household_income_tax_before_refundable_credits(Variable):
     value_type = float
     entity = Household
-    label = "Income tax after credits"
+    label = "tax"
+    documentation = "Total tax liability before refundable credits."
     unit = EUR
     definition_period = YEAR
-
     adds = ["income_tax_before_refundable_credits"]
-    subtracts = ["refundable_tax_credits"]

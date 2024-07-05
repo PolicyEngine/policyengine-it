@@ -7,16 +7,15 @@ metadata:
   name: dependent_spouse_deduction_phase_out_rate
   label: Dependent spouse deduction, phase-out rate
 brackets:
-  2024-01-01:
-    - threshold:
-        2024-01-01: 0
-      rate:
-        2024-01-01: 0
-    - threshold:
-        2024-01-01: 15000
-      rate:
-        2024-01-01: 0.0073333  # 110 / 15000
-    - threshold:
-        2024-01-01: 40000
-      rate:
-        2024-01-01: 0.01725  # 690 / 40000
+  - threshold:
+      2024-01-01: 0
+    rate:
+      2024-01-01: 0
+  - threshold:
+      2024-01-01: 15000
+    rate:
+      2024-01-01: 0.0073333  # 110 / 15000
+  - threshold:
+      2024-01-01: 40000
+    rate:
+      2024-01-01: 0.01725  # 690 / 40000

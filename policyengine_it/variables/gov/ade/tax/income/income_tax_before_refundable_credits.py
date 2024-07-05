@@ -8,9 +8,10 @@ class income_tax_before_refundable_credits(Variable):
     unit = EUR
     label = "Italian national income tax before refundable credits"
     documentation = "Income tax liability (including other taxes) after non-refundable credits are used, but before refundable credits are applied"
-    adds = [
-        "income_tax_before_credits",
-    ]
-    subtracts = [
-        "non_refundable_credits",
-    ]
+
+    def formula(person, period, parameters):
+        income_tax_before_credits = person("income_tax_before_credits", period)
+        non_refundable_tax_credits = person(
+            "non_refundable_tax_credits", period
+        )
+        return max_(income_tax_before_credits - non_refundable_tax_credits, 0)
