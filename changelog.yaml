@@ -70,3 +70,8 @@
     added:
     - Fondo Assistenza Sanitaria Industria (FASI)
   date: 2024-07-05 05:31:26
+- bump: minor
+  changes:
+    added:
+    - Industrial Company Managers' Pension Fund (mandatory contributions)
+  date: 2024-07-05 05:53:48
