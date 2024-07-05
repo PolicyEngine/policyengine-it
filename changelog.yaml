@@ -53,3 +53,8 @@
     changed:
     - Replace if/then with np.where for Mario Negri Fund calculation
   date: 2024-07-05 03:54:38
+- bump: minor
+  changes:
+    added:
+    - Mario Besusso Fund
+  date: 2024-07-05 04:49:43
