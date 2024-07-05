@@ -65,3 +65,8 @@
     changed:
     - Replaced unnecessary np.where calls in eligibility checks
   date: 2024-07-05 05:07:01
+- bump: minor
+  changes:
+    added:
+    - Fondo Assistenza Sanitaria Industria (FASI)
+  date: 2024-07-05 05:31:26
