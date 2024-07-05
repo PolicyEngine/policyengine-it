@@ -9,13 +9,12 @@ brackets:
     amount:
       2024-01-01: 690
   - threshold:
-      2024-01-01: 40_000
+      2024-01-01: 80_000
     amount:
       2024-01-01: 0
 
 metadata:
-  type: marginal_rate
+  type: single_amount
   rate_unit: currency-EUR
   threshold_unit: currency-EUR
-  name: dependent_spouse_deduction_base_amount
   label: Dependent spouse deduction, base amount
