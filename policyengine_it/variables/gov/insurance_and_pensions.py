@@ -7,4 +7,10 @@ class insurance_and_pensions(Variable):
     label = "insurance and pensions, total"
     unit = EUR
     definition_period = YEAR
-    adds = ["social_security", "mario_negri", "mario_besusso", "shepherd_fund"]
+    adds = [
+        "social_security",
+        "mario_negri",
+        "mario_besusso",
+        "shepherd_fund",
+        "fasi",
+    ]
