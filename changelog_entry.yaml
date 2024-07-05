@@ -1,6 +1,0 @@
-- bump: minor
-  changes:
-    added:
-    - Shepherd Fund (base contribution only)
-    changed:
-    - Replaced unnecessary np.where calls in eligibility checks

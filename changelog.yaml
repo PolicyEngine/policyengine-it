@@ -58,3 +58,10 @@
     added:
     - Mario Besusso Fund
   date: 2024-07-05 04:49:43
+- bump: minor
+  changes:
+    added:
+    - Shepherd Fund (base contribution only)
+    changed:
+    - Replaced unnecessary np.where calls in eligibility checks
+  date: 2024-07-05 05:07:01
