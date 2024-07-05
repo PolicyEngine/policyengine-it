@@ -75,3 +75,8 @@
     added:
     - Industrial Company Managers' Pension Fund (mandatory contributions)
   date: 2024-07-05 05:53:48
+- bump: minor
+  changes:
+    changed:
+    - Fixed how Shepherd Fund is included in model
+  date: 2024-07-05 06:44:16
