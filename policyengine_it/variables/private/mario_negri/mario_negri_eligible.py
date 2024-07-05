@@ -14,7 +14,8 @@ class mario_negri_eligible(Variable):
             "employment_category", period
         ).decode_to_str()[0]
 
-        if employment_category in mn_eligible_groups:
-            return True
-        else:
-            return False
+        is_eligible = np.where(
+            employment_category in mn_eligible_groups, True, False
+        )
+
+        return is_eligible
