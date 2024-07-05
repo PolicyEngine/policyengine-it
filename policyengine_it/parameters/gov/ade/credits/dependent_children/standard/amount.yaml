@@ -1,0 +1,21 @@
+description: The ADE provides a maximum dependent child credit of this amount, depending on the child's age.
+
+brackets:
+  - threshold:
+      values:
+        0000-01-01: 21
+    amount:
+      values:
+        0000-01-01: 950
+  - threshold:
+      values:
+        0000-01-01: 24
+    amount:
+      values:
+        0000-01-01: 950
+metadata:
+  type: single_amount
+  threshold_unit: year
+  amount_unit: currency-EUR
+  amount_period: year
+  label: Dependent child credit amount, standard
