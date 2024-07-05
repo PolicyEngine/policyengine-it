@@ -8,4 +8,4 @@ class refundable_tax_credits(Variable):
     unit = EUR
     definition_period = YEAR
 
-    # adds = "gov.ade.credits.refundable"
+    adds = "gov.ade.credits.refundable"
