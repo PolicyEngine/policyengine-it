@@ -18,4 +18,4 @@ metadata:
   threshold_unit: year
   amount_unit: currency-EUR
   amount_period: year
-  label: Dependent child credit income limit, standard
+  label: Dependent child credit income limit

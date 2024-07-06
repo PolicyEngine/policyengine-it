@@ -1,8 +1,8 @@
 from policyengine_it.model_api import *
 
 
-class head_income(Variable):
-    value_type = bool
+class head_market_income(Variable):
+    value_type = float
     entity = Household
     label = "Income of head of household"
     definition_period = YEAR
