@@ -3,14 +3,14 @@ from policyengine_it.model_api import *
 
 class dependent_child_eligible(Variable):
     value_type = bool
-    entity = Household
+    entity = Person
     label = "Eligible for dependent child income tax credit"
     definition_period = YEAR
 
-    def formula(household, period, parameters):
+    def formula(person, period, parameters):
         p = parameters(period).gov.ade.credits.dependent_child
 
-        person = household.members
+        household = person.household
 
         # Find spouse's income specifically
         spouse_income = household("spouse_market_income", period)
