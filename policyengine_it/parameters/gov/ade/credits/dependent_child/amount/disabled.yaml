@@ -5,5 +5,4 @@ values:
 
 metadata:
   unit: currency-EUR
-  amount_period: year
   label: Dependent child credit amount, disabled
