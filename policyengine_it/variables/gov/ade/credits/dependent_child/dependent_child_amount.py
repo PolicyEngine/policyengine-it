@@ -12,6 +12,6 @@ class dependent_child_amount(Variable):
 
         is_eligible = person("dependent_child_eligible", period)
         is_disabled = person("is_disabled", period)
-        amount = p.amount["disabled" if is_disabled else "standard"]
+        amount = where(is_disabled, p.amount.disabled, p.amount.standard)
 
         return is_eligible * amount

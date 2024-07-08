@@ -29,11 +29,9 @@ class dependent_child_eligible(Variable):
 
         is_eligible_income = income <= p.eligibility.calc(age)
 
-        eligible = (
+        return (
             is_spouse_less_head
             & is_eligible_age
             & is_eligible_income
             & is_dependent
-        ).any()
-
-        return eligible
+        )
