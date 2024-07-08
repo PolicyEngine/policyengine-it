@@ -6,6 +6,7 @@ class shepherd_fund_base_amount(Variable):
     entity = Person
     label = "Fixed, flat base amount paid by all Shepherd Fund contributors"
     definition_period = YEAR
+    defined_for = "shepherd_fund_eligible"
 
     def formula(person, period, parameters):
         is_eligible = person("shepherd_fund_eligible", period)

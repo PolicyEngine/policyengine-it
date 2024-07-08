@@ -6,6 +6,7 @@ class dependent_child_credit(Variable):
     entity = Person
     label = "Dependent child income tax credit amount"
     definition_period = YEAR
+    defined_for = "dependent_child_eligible"
 
     def formula(person, period, parameters):
         p = parameters(period).gov.ade.credits.dependent_child

@@ -6,6 +6,7 @@ class mario_besusso(Variable):
     entity = Person
     label = "Total amount paid by Mario Besusso contributors"
     definition_period = YEAR
+    defined_for = "mario_besusso_eligible"
 
     def formula(person, period, parameters):
         is_eligible = person("mario_besusso_eligible", period)

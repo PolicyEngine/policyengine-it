@@ -6,6 +6,7 @@ class dependent_spouse_base_amount(Variable):
     entity = Household
     label = "Dependent spouse income tax credit base amount"
     definition_period = YEAR
+    defined_for = "dependent_spouse_eligible"
 
     def formula(household, period, parameters):
         p = parameters(period).gov.ade.credits.dependent_spouse
