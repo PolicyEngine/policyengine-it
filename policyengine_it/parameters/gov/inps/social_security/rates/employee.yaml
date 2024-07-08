@@ -1,11 +1,9 @@
 description: Social security rates for standard employees
 brackets:
   - threshold:
-      values:
-        0000-01-01: 0
+      0000-01-01: 0
     rate:
-      values:
-        0000-01-01: 0.4
+      0000-01-01: 0.4
 
 metadata:
   type: marginal_rate

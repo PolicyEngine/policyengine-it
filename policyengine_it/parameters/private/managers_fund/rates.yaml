@@ -1,17 +1,13 @@
 description: Industrial Company Mangers' Pension Fund contribution rates for executives
 brackets:
   - threshold:
-      values:
-        0000-01-01: 0
+      0000-01-01: 0
     rate:
-      values:
-        0000-01-01: 0.04
+      0000-01-01: 0.04
   - threshold:
-      values:
-        0000-01-01: 180_000
+      0000-01-01: 180_000
     rate:
-      values:
-        0000-01-01: 0
+      0000-01-01: 0
 
 metadata:
   type: marginal_rate

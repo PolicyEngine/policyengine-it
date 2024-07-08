@@ -1,17 +1,13 @@
 description: Mario Besusso Fund contribution rates for executives
 brackets:
   - threshold:
-      values:
-        0000-01-01: 0
+      0000-01-01: 0
     rate:
-      values:
-        0000-01-01: 0.0187
+      0000-01-01: 0.0187
   - threshold:
-      values:
-        0000-01-01: 45_940
+      0000-01-01: 45_940
     rate:
-      values:
-        0000-01-01: 0
+      0000-01-01: 0
 
 metadata:
   type: marginal_rate
