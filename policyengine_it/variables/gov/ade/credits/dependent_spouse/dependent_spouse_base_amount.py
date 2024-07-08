@@ -16,4 +16,4 @@ class dependent_spouse_base_amount(Variable):
         is_eligible = household("dependent_spouse_eligible", period)
         phase_out_amount = p.phase_out.calc(income)
 
-        return is_eligible * (p.base_amount - phase_out_amount)
+        return is_eligible * max_((p.base_amount - phase_out_amount), 0)
