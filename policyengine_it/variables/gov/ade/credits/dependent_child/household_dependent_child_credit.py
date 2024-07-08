@@ -14,5 +14,4 @@ class household_dependent_child_credit(Variable):
     def formula(household, period, parameters):
 
         dependents = household.members("dependent_child_credit", period)
-        print(dependents)
         return household.sum(dependents)
