@@ -17,5 +17,4 @@ metadata:
   type: marginal_rate
   rate_unit: /1
   threshold_unit: currency-EUR
-  name: mario_negri_fund_rates
   label: Mario Negri Fund contribution rates

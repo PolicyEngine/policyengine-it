@@ -11,5 +11,4 @@ metadata:
   type: marginal_rate
   rate_unit: /1
   threshold_unit: currency-EUR
-  name: social_security_rates_employee
   label: Social security rates (employee)
