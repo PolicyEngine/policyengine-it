@@ -14,7 +14,7 @@ class social_security(Variable):
 
         p = parameters(period).gov.inps.social_security.rates
 
-        social_security_amount = select(
+        return select(
             [
                 employment_category == category.EMPLOYEE,
                 employment_category == category.EXECUTIVE,
@@ -26,5 +26,3 @@ class social_security(Variable):
                 p.unemployed.calc(income),
             ],
         )
-
-        return social_security_amount

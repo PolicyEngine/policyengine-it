@@ -35,5 +35,5 @@ metadata:
   type: marginal_rate
   rate_unit: /1
   threshold_unit: currency-EUR
-  name: national_tax_rates
   label: National tax rates
+  period: year

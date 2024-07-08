@@ -5,3 +5,5 @@ values:
     
 metadata:
   unit: program
+  label: Non-refundable tax credits
+  period: year

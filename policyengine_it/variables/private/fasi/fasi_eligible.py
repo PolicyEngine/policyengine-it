@@ -8,10 +8,9 @@ class fasi_eligible(Variable):
     definition_period = YEAR
 
     def formula(person, period, parameters):
-        fasi_eligible_groups = parameters(period).private.fasi.eligibility
+        employment_category = person("employment_category", period)
 
-        employment_category = person(
-            "employment_category", period
-        ).decode_to_str()[0]
-
-        return employment_category in fasi_eligible_groups
+        return (
+            employment_category
+            == employment_category.possible_values.EXECUTIVE
+        )

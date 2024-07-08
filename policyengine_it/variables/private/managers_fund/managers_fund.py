@@ -6,6 +6,7 @@ class managers_fund(Variable):
     entity = Person
     label = "Total amount paid by Industrial Company Managers' Pension Fund contributors"
     definition_period = YEAR
+    defined_for = "managers_fund_eligible"
 
     def formula(person, period, parameters):
         is_eligible = person("managers_fund_eligible", period)

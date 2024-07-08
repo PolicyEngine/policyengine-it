@@ -6,6 +6,7 @@ class mario_negri_base_amount(Variable):
     entity = Person
     label = "Fixed, flat base amount paid by all Mario Negri contributors"
     definition_period = YEAR
+    defined_for = "mario_negri_eligible"
 
     def formula(person, period, parameters):
         is_eligible = person("mario_negri_eligible", period)

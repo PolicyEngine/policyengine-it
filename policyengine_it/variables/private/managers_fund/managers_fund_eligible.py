@@ -8,12 +8,9 @@ class managers_fund_eligible(Variable):
     definition_period = YEAR
 
     def formula(person, period, parameters):
-        mf_eligible_groups = parameters(
-            period
-        ).private.managers_fund.eligibility
+        employment_category = person("employment_category", period)
 
-        employment_category = person(
-            "employment_category", period
-        ).decode_to_str()[0]
-
-        return employment_category in mf_eligible_groups
+        return (
+            employment_category
+            == employment_category.possible_values.EXECUTIVE
+        )

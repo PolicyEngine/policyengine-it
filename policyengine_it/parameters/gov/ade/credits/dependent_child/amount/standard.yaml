@@ -4,5 +4,5 @@ values:
   0000-01-01: 950
 metadata:
   unit: currency-EUR
-  amount_period: year
+  period: year
   label: Dependent child credit amount, standard

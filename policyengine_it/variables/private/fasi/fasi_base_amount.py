@@ -6,6 +6,7 @@ class fasi_base_amount(Variable):
     entity = Person
     label = "Fixed, flat base amount paid by all Fondo Assistenza Sanitaria Industria (FASI) contributors"
     definition_period = YEAR
+    defined_for = "fasi_eligible"
 
     def formula(person, period, parameters):
         is_eligible = person("fasi_eligible", period)

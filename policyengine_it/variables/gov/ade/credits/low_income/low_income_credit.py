@@ -6,6 +6,7 @@ class low_income_credit(Variable):
     entity = Person
     label = "Value returned by the low income tax credit"
     definition_period = YEAR
+    defined_for = "low_income_eligible"
 
     def formula(person, period, parameters):
         is_eligible = person("low_income_eligible", period)
