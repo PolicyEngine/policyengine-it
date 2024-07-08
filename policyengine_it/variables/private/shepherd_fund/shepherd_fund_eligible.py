@@ -11,5 +11,5 @@ class shepherd_fund_eligible(Variable):
         employment_category = person(
             "employment_category", period
         )
-        categories =  employment_category == employment_category.possible_values
-        return employment_category == categories.EXECUTIVE
+
+        return employment_category == employment_category.possible_values.EXECUTIVE
