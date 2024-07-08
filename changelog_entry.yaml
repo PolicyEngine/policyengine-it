@@ -1,0 +1,6 @@
+- bump: patch
+  changes:
+    fixed:
+    - Calculation of dependent spouse credit now uses parameterized values correctly
+    - Various formatting fixes
+    - Calculations involving enums now correctly reference said enum value

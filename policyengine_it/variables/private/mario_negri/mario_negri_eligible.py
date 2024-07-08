@@ -8,8 +8,9 @@ class mario_negri_eligible(Variable):
     definition_period = YEAR
 
     def formula(person, period, parameters):
-        employment_category = person(
-            "employment_category", period
-        )
+        employment_category = person("employment_category", period)
 
-        return employment_category == employment_category.possible_values.EXECUTIVE
+        return (
+            employment_category
+            == employment_category.possible_values.EXECUTIVE
+        )
