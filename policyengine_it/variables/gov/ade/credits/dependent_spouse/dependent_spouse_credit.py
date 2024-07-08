@@ -1,10 +1,10 @@
 from policyengine_it.model_api import *
 
 
-class dependent_spouse_deduction(Variable):
+class dependent_spouse_credit(Variable):
     value_type = float
     entity = Person
-    label = "Total value of the dependent spouse deduction"
+    label = "Total value of the dependent spouse credit"
     definition_period = YEAR
 
     adds = [

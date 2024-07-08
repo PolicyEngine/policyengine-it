@@ -4,7 +4,7 @@
     household_market_income: 0
     household_married: true
     spouse_market_income: 0
-    head_income: 0
+    head_market_income: 0
   output:
     dependent_spouse_eligible: false
 
@@ -14,7 +14,7 @@
     household_market_income: 10_000
     household_married: true
     spouse_market_income: 2_000
-    head_income: 8_000
+    head_market_income: 8_000
   output:
     dependent_spouse_eligible: true
 
@@ -24,7 +24,7 @@
     household_market_income: 30_000
     household_married: false
     spouse_market_income: 2_000
-    head_income: 28_000
+    head_market_income: 28_000
   output:
     dependent_spouse_eligible: false
 
@@ -34,7 +34,7 @@
     household_market_income: 30_000
     household_married: true
     spouse_market_income: 2_000
-    head_income: 28_000
+    head_market_income: 28_000
   output:
     dependent_spouse_eligible: true
 
@@ -44,7 +44,7 @@
     household_market_income: 40_000
     household_married: true
     spouse_market_income: 3_000
-    head_income: 37_000
+    head_market_income: 37_000
   output:
     dependent_spouse_eligible: false
 
@@ -54,7 +54,7 @@
     household_market_income: 40_000
     household_married: true
     spouse_market_income: 2_800
-    head_income: 37_200
+    head_market_income: 37_200
   output:
     dependent_spouse_eligible: true
 
@@ -64,7 +64,7 @@
     household_market_income: 50_000
     household_married: true
     spouse_market_income: 30_000
-    head_income: 20_000
+    head_market_income: 20_000
   output:
     dependent_spouse_eligible: false
 
@@ -83,7 +83,7 @@
     household_market_income: 79_999
     household_married: true
     spouse_market_income: 2_000
-    head_income: 77_999
+    head_market_income: 77_999
   output:
     dependent_spouse_eligible: true
 
@@ -93,6 +93,6 @@
     household_market_income: 80_001
     household_married: true
     spouse_market_income: 2_000
-    head_income: 78_001
+    head_market_income: 78_001
   output:
     dependent_spouse_eligible: false

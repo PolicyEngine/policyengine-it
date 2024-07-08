@@ -4,8 +4,7 @@ metadata:
   rate_unit: /1
   period: year
   type: single_amount
-  name: dependent_spouse_deduction_phase_out_rate
-  label: Dependent spouse deduction, phase-out rate
+  label: Dependent spouse credit, phase-out rate
 brackets:
   - threshold:
       2024-01-01: 0
