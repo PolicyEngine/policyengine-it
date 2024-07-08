@@ -5,3 +5,4 @@ values:
 metadata:
   unit: currency-EUR
   label: FASI base amount
+  period: year

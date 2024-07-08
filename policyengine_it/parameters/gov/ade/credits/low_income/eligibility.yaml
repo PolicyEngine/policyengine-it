@@ -2,6 +2,7 @@ description: Italy limits low income tax credit eligibility to individuals makin
 metadata:
   unit: currency-EUR
   label: Employee max income
+  period: year
 EMPLOYEE:
   0000-01-01: 8_000
 EXECUTIVE:

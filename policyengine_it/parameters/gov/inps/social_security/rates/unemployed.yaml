@@ -12,3 +12,4 @@ metadata:
   rate_unit: /1
   threshold_unit: currency-EUR
   label: Social security rates (unemployed)
+  period: year

@@ -5,3 +5,4 @@ values:
 metadata:
   unit: currency-EUR
   label: Dependent spouse credit, base amount
+  period: year

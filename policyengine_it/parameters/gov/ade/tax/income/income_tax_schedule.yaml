@@ -36,3 +36,4 @@ metadata:
   rate_unit: /1
   threshold_unit: currency-EUR
   label: National tax rates
+  period: year
