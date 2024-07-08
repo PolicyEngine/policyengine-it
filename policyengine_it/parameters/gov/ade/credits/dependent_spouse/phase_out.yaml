@@ -3,18 +3,19 @@ metadata:
   threshold_unit: currency-EUR
   rate_unit: /1
   period: year
-  type: single_amount
+  type: marginal_rate
   label: Dependent spouse credit, phase-out rate
 brackets:
   - threshold:
-      2024-01-01: 0
-    amount:
+      values:
+        2024-01-01: 0
+    rate:
       2024-01-01: 0.0073333  # 110 / 15000
   - threshold:
       2024-01-01: 15_000
-    amount:
+    rate:
       2024-01-01: 0
   - threshold:
       2024-01-01: 40_000
-    amount:
+    rate:
       2024-01-01: 0.01725  # 690 / 40000

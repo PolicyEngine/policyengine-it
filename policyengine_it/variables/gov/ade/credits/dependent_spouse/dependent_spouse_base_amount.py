@@ -11,12 +11,9 @@ class dependent_spouse_base_amount(Variable):
     def formula(household, period, parameters):
         p = parameters(period).gov.ade.credits.dependent_spouse
 
-        is_eligible = household("dependent_spouse_eligible", period)
         income = household("household_market_income", period)
-        base_amount = p.base_amount.calc(income)
 
-        phase_out_rate = p.phase_out.calc(income)
-        prev_threshold = get_previous_threshold(income, p.phase_out.thresholds)
-        phase_out_amount = phase_out_rate * (income - prev_threshold)
+        is_eligible = household("dependent_spouse_eligible", period)
+        phase_out_amount = p.phase_out.calc(income)
 
-        return is_eligible * (base_amount - phase_out_amount)
+        return is_eligible * (p.base_amount - phase_out_amount)
