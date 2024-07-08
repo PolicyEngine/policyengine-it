@@ -11,9 +11,7 @@ class head_market_income(Variable):
         person = household.members
 
         # Find spouse's income specifically
-        is_head: bool = person("is_head", period)
-        head_income: float = (
-            person("total_individual_pre_tax_income", period) * is_head
-        )
+        is_head = person("is_head", period)
+        market_income = person("total_individual_pre_tax_income", period)
 
-        return head_income
+        return household.sum(market_income * is_head)

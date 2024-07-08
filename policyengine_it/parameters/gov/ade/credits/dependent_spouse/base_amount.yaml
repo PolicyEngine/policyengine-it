@@ -1,4 +1,4 @@
-description: Base amount for dependent spouse deduction
+description: Base amount for dependent spouse credit
 brackets:
   - threshold:
       2024-01-01: 0
@@ -17,4 +17,4 @@ metadata:
   type: single_amount
   rate_unit: currency-EUR
   threshold_unit: currency-EUR
-  label: Dependent spouse deduction, base amount
+  label: Dependent spouse credit, base amount

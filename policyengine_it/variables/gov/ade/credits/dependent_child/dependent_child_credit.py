@@ -1,7 +1,7 @@
 from policyengine_it.model_api import *
 
 
-class dependent_child_amount(Variable):
+class dependent_child_credit(Variable):
     value_type = float
     entity = Person
     label = "Dependent child income tax credit amount"

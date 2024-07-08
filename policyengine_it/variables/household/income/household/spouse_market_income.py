@@ -14,9 +14,4 @@ class spouse_market_income(Variable):
         is_spouse: bool = person("is_spouse", period)
         market_income = person("total_individual_pre_tax_income", period)
 
-        spouse_market_income: float = np.where(
-            is_spouse, person("total_individual_pre_tax_income", period), 0
-        )
-        spouse_market_income: float = household.sum(market_income * is_spouse)
-
-        return spouse_market_income
+        return household.sum(market_income * is_spouse)

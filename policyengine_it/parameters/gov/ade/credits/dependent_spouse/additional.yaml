@@ -4,8 +4,7 @@ metadata:
   rate_unit: currency-EUR
   period: year
   type: single_amount
-  name: dependent_spouse_deduction_additional_credit
-  label: Dependent spouse deduction, additional credit
+  label: Dependent spouse credit, additional credit
 brackets:
   - threshold:
       2024-01-01: 0

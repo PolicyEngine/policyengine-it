@@ -12,7 +12,7 @@
         head_market_income: 50_000
         spouse_market_income: 30_000
   output:
-    dependent_child_amount: 0
+    dependent_child_credit: 0
 
 - name: Deduction for non-disabled child aged 21
   period: 2024
@@ -28,7 +28,7 @@
         head_market_income: 50_000
         spouse_market_income: 30_000
   output:
-    dependent_child_amount: 950
+    dependent_child_credit: 950
 
 - name: Deduction for disabled child aged 21
   period: 2024
@@ -44,7 +44,7 @@
         head_market_income: 50_000
         spouse_market_income: 30_000
   output:
-    dependent_child_amount: 1_350
+    dependent_child_credit: 1_350
 
 - name: No deduction for child aged 21 with income over threshold
   period: 2024
@@ -60,7 +60,7 @@
         head_market_income: 50_000
         spouse_market_income: 30_000
   output:
-    dependent_child_amount: 0
+    dependent_child_credit: 0
 
 - name: Deduction for non-disabled child aged 22
   period: 2024
@@ -76,7 +76,7 @@
         head_market_income: 50_000
         spouse_market_income: 30_000
   output:
-    dependent_child_amount: 950
+    dependent_child_credit: 950
 
 - name: Deduction for non-disabled child aged 24
   period: 2024
@@ -92,7 +92,7 @@
         head_market_income: 50_000
         spouse_market_income: 30_000
   output:
-    dependent_child_amount: 950
+    dependent_child_credit: 950
 
 - name: Deduction for non-disabled child aged 25
   period: 2024
@@ -108,7 +108,7 @@
         head_market_income: 50_000
         spouse_market_income: 30_000
   output:
-    dependent_child_amount: 950
+    dependent_child_credit: 950
 
 - name: Deduction for disabled child aged 25
   period: 2024
@@ -124,7 +124,7 @@
         head_market_income: 50_000
         spouse_market_income: 30_000
   output:
-    dependent_child_amount: 1_350
+    dependent_child_credit: 1_350
 
 - name: No deduction for child aged 25 with income over threshold
   period: 2024
@@ -140,7 +140,7 @@
         head_market_income: 50_000
         spouse_market_income: 30_000
   output:
-    dependent_child_amount: 0
+    dependent_child_credit: 0
 
 - name: No deduction when head income is less than spouse income
   period: 2024
@@ -156,4 +156,4 @@
         head_market_income: 30_000
         spouse_market_income: 50_000
   output:
-    dependent_child_amount: 0
+    dependent_child_credit: 0
