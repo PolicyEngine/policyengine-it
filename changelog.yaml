@@ -102,3 +102,8 @@
     added:
     - Single and Universal Allowance for Dependent Children
   date: 2024-07-09 03:55:11
+- bump: minor
+  changes:
+    added:
+    - Low-income bonus value for universal allowance
+  date: 2024-07-09 14:36:49
