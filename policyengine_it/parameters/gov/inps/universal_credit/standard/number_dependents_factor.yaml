@@ -1,4 +1,4 @@
-description: Multiplier factor, based on number of children under 21, for the low-income single and universal allowance for dependent children
+description: Multiplier factor, based on number of children under 21, for the single and universal allowance for dependent children
 brackets:
   - threshold:
       0000-01-01: 0
@@ -13,5 +13,5 @@ metadata:
   type: single_amount
   amount_unit: /1
   threshold_unit: person
-  label: Multiplier factor, low-income single and universal allowance for dependent children, standard portion
+  label: Multiplier factor, single and universal allowance for dependent children, standard portion
   period: month

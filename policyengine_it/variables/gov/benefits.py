@@ -7,4 +7,4 @@ class benefits(Variable):
     label = "benefits"
     unit = EUR
     definition_period = YEAR
-    adds = []
+    adds = ["inclusion_checks", "universal_credit"]
