@@ -97,3 +97,8 @@
     - Various formatting fixes
     - Calculations involving enums now correctly reference said enum value
   date: 2024-07-08 21:40:59
+- bump: minor
+  changes:
+    added:
+    - Single and Universal Allowance for Dependent Children
+  date: 2024-07-09 03:55:11
