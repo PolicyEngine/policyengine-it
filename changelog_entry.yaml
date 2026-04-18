@@ -1,4 +1,0 @@
-- bump: patch
-  changes:
-    changed:
-    - Migrated push workflow from the expired POLICYENGINE_GITHUB PAT to a short-lived GitHub App token.

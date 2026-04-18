@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.16.1] - 2026-04-18 00:09:54
+
+### Changed
+
+- Migrated push workflow from the expired POLICYENGINE_GITHUB PAT to a short-lived GitHub App token.
+
 ## [0.16.0] - 2024-07-09 14:36:49
 
 ### Added
@@ -139,6 +145,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 
+[0.16.1]: https://github.com/PolicyEngine/policyengine-it/compare/0.16.0...0.16.1
 [0.16.0]: https://github.com/PolicyEngine/policyengine-it/compare/0.15.0...0.16.0
 [0.15.0]: https://github.com/PolicyEngine/policyengine-it/compare/0.14.1...0.15.0
 [0.14.1]: https://github.com/PolicyEngine/policyengine-it/compare/0.14.0...0.14.1
