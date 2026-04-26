@@ -15,6 +15,7 @@ general_requirements = [
     "dpath<3",
     "h5py>=3,<4",
     "linecheck<1",
+    "matplotlib<4",
     "microdf_python>=0.3.0,<1",
     "nptyping<2",
     "numexpr<3",
