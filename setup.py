@@ -26,7 +26,7 @@ general_requirements = [
     "pytest",
     "requests>=2.27.1,<3",
     "sortedcontainers<3",
-    "taxcalc<7",
+    "taxcalc<4",
     "tqdm>=4.46.0,<5",
     "wheel<1",
     "yaml-changelog==0.3.0",
