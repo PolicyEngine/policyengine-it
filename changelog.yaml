@@ -113,3 +113,8 @@
     - Migrated push workflow from the expired POLICYENGINE_GITHUB PAT to a short-lived
       GitHub App token.
   date: 2026-04-18 00:09:54
+- bump: patch
+  changes:
+    changed:
+    - Updated GitHub Actions workflows for Node 24-compatible action runtimes.
+  date: 2026-04-28 00:36:01
