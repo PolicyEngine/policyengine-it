@@ -72,6 +72,12 @@ jobs:
       - uses: codecov/codecov-action@v6
   Publish:
     runs-on: ubuntu-latest
+    # PyPI trusted publishing: uploads accepted only from this workflow in the
+    # pypi environment (limited to main). No stored token.
+    environment: pypi
+    permissions:
+      contents: write  # publish-git-tag.sh pushes the version tag
+      id-token: write
     if: |
       (github.repository == 'PolicyEngine/policyengine-it')
       && (github.event.head_commit.message == 'Update PolicyEngine Italy')
@@ -91,8 +97,6 @@ jobs:
       - name: Publish a Python distribution to PyPI
         uses: pypa/gh-action-pypi-publish@release/v1
         with:
-          user: __token__
-          password: ${{ secrets.PYPI }}
           skip_existing: true
   Deploy:
     if: |
