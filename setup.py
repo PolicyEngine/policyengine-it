@@ -11,7 +11,7 @@ long_description = (this_directory / "README.md").read_text()
 
 general_requirements = [
     "black[jupyter]",
-    "coverage<8",
+    "coverage<7",
     "dpath<3",
     "h5py>=3,<4",
     "linecheck<1",
