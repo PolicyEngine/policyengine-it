@@ -11,7 +11,7 @@ long_description = (this_directory / "README.md").read_text()
 
 general_requirements = [
     "black[jupyter]",
-    "coverage<7",
+    "coverage<8",
     "dpath<3",
     "h5py>=3,<4",
     "linecheck<1",
@@ -52,10 +52,7 @@ setup(
         "License :: OSI Approved :: GNU Affero General Public License v3",
         "Operating System :: POSIX",
         "Programming Language :: Python",
-        "Programming Language :: Python :: 3.7",
-        "Programming Language :: Python :: 3.8",
-        "Programming Language :: Python :: 3.9",
-        "Programming Language :: Python :: 3.10",
+        "Programming Language :: Python :: 3.11",
         "Topic :: Scientific/Engineering :: Information Analysis",
     ],
     description="Microsimulation model for Italy's tax-benefit system.",
@@ -68,8 +65,7 @@ setup(
     extras_require={
         "dev": dev_requirements,
     },
-    # Windows CI requires Python 3.9.
-    python_requires=">=3.7",
+    python_requires=">=3.11",
     install_requires=general_requirements,
     packages=find_packages(),
     include_package_data=True,
